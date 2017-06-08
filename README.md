@@ -1,2 +1,2 @@
 # holdem-range
-holdem range ui
+holdem range ctrl write by js
