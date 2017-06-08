@@ -1,0 +1,27 @@
+.hrscene {
+    display: table;
+}
+
+.hrline {
+    display: table-row;
+    height: 40px;
+    background: #ffffff;
+}
+
+.hrcell {
+    display: table-cell;
+    vertical-align: middle;
+    background: #cccccc;
+    width: 40px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.hrcell1 {
+    display: table-cell;
+    vertical-align: middle;
+    background: #F57900;
+    width: 40px;
+    border: 1px solid white;
+    text-align: center;
+}

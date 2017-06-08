@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>holdem range demo</title>
+    <link type="text/css" href="holdemrange.css"  rel="stylesheet" />
+    <script type="text/javascript" src="holdemrange.js"></script>
+</head>
+<body>
+<div id="holdemrange"></div>
+<script>
+    var arr = [];
+    for (var y = 0; y < 13; ++y) {
+        arr.push([]);
+
+        for (var x = 0; x < 13; ++x) {
+            if (x == y) {
+                arr[y].push(1);
+            }
+            else {
+                arr[y].push(0);
+            }
+        }
+    }
+    initHoldemRange('holdemrange', arr);
+</script>
+</body>
+</html>
